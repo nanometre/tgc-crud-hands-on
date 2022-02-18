@@ -1,0 +1,18 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+<h3>Delete book</h3>
+<form method="post">
+    <div class="alert alert-danger">
+        <p>Delete book?</p>
+        <p>Title: {{book.title}}</p>
+        <p>ISBN: {{book.isbn}}</p>
+    </div>
+    <div>
+        <input type="submit" class='btn btn-danger'value="Confirm Delete">
+        <a href="/" class="btn btn-primary">Cancel delete</a>
+    </div>
+</form>
+{{/block}}
+
+{{/extends}}

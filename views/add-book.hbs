@@ -1,0 +1,22 @@
+{{#extends 'base'}}
+
+{{#block 'content'}}
+<h3>Add book</h3>
+<form method="post">
+    <div>
+        <label>Title:</label>
+        <input type="text" name="title" class="form-control">
+    </div>
+
+    <div>
+        <label>ISBN:</label>
+        <input type="text" name="isbn" class="form-control">
+    </div>
+
+    <div>
+        <input type="submit" class="btn btn-primary mt-3" value="Add">
+    </div>
+</form>
+{{/block}}
+
+{{/extends}}

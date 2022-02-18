@@ -1,7 +1,7 @@
 {
   "name": "tgc-crud-hands-on",
   "version": "1.0.0",
-  "description": "",
+  "description": "In this Library App hands on, you are to write a CRUD application\r for displaying, creating, updating and deleting a list of books.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
